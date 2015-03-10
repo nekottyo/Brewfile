@@ -84,6 +84,7 @@ install nettle
 install nkf
 install nmap
 install node
+install oh-my-zsh
 install openssl
 install pango
 install pcre
@@ -95,7 +96,7 @@ install ruby
 install scons
 install sqlite
 install tmux
-install vim
+install macvim --override-system-vim --with-luajit
 install wdiff
 install wget
 install xz
