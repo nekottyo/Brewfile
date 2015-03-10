@@ -12,7 +12,9 @@ cask install caffeine
 cask install colorpicker-skalacolor
 cask install disk-inventory-x
 cask install github
+cask install google-chrome
 cask install iterm2
+cask install java
 cask install kobito
 cask install macs-fan-control
 cask install netbeans
@@ -44,7 +46,7 @@ install cairo
 install cloog
 install coreutils
 install czmq
-install emacs --HEAD --use-git-head --cocoa --with-gnutls
+install emacs --HEAD --cocoa --with-gnutls
 install fontconfig
 install fontforge
 install freetype
@@ -84,7 +86,6 @@ install nettle
 install nkf
 install nmap
 install node
-install oh-my-zsh
 install openssl
 install pango
 install pcre
@@ -96,20 +97,9 @@ install ruby
 install scons
 install sqlite
 install tmux
-install macvim --override-system-vim --with-luajit
+install vim --with-luajit
 install wdiff
 install wget
 install xz
 install zeromq
 install zsh
-
-# App Store applications
-appstore Battery Diag
-appstore iPhoto
-appstore Keynote
-appstore LINE
-appstore Microsoft OneNote
-appstore Microsoft Remote Desktop
-appstore Numbers
-appstore Pages
-appstore The Unarchiver
