@@ -7,16 +7,19 @@ install brew-cask
 cask install alfred
 cask install appcleaner
 cask install atom
+cask install bettertouchtool
 cask install box-sync
 cask install caffeine
 cask install colorpicker-skalacolor
 cask install disk-inventory-x
-cask install github
 cask install google-chrome
+cask install google-japanese-ime
 cask install iterm2
 cask install java
+cask install karabiner
 cask install kobito
 cask install macs-fan-control
+cask install menumeters
 cask install netbeans
 cask install skype
 cask install steam
@@ -25,6 +28,10 @@ cask install vagrant
 cask install virtualbox
 cask install vlc
 cask install xquartz
+
+## caskroom/versions
+tap caskroom/versions
+cask install sublime-text3
 
 ## homebrew/binary
 tap homebrew/binary
@@ -45,6 +52,7 @@ install bash
 install cairo
 install cloog
 install coreutils
+install cscope
 install czmq
 install emacs --HEAD --cocoa --with-gnutls
 install fontconfig
@@ -78,6 +86,7 @@ install libyaml
 install little-cms2
 install lua
 install luajit
+install macvim
 install makedepend
 install mecab
 install mpfr
@@ -97,9 +106,16 @@ install ruby
 install scons
 install sqlite
 install tmux
-install vim --with-luajit
+install vim --with-lua
 install wdiff
 install wget
 install xz
 install zeromq
 install zsh
+install zsh-completions
+
+# App Store applications
+appstore Battery Diag
+appstore LINE
+appstore Microsoft OneNote
+appstore Xcode
